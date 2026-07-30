@@ -1,7 +1,7 @@
 /* active header sticky 1:07:20 */
 const header = document.querySelector("header");
 window.addEventListener("scroll", () => {
-    header.classList.toggle("sticky", window, scrollY > 50)
+    header.classList.toggle("sticky", window.scrollY > 50)
 })
 
 /* active scroll menu */
